@@ -1,0 +1,139 @@
+# ==========================================
+# Operating System files
+# ==========================================
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Python & FastAPI
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Inline type hints
+.mypy_cache/
+.pyre/
+.pytype/
+ipython_log.py
+
+# FastAPI / Uvicorn run files
+celerybeat-schedule
+*.log
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+# Explicit project paths
+backend/venv/
+frontend/node_modules/
+
+# Standard virtual environments
+.venv/
+venv/
+ENV/
+env/
+ActiveState.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry / Pipenv / Hatch / Conda
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.conda/
+
+# ==========================================
+# Node.js & Next.js
+# ==========================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Next.js build output
+.next/
+out/
+
+# Build logs and reports
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vercel deployment
+.vercel
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+# Local env files containing secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+!*.env.example
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# Editors
+*.swp
+*.swo
+*~
